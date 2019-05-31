@@ -4,22 +4,22 @@ button,hr,input{overflow:visible}progress,sub,sup{vertical-align:baseline}[type=
 
 /* 
 
-	Breakpoint reference
+  Breakpoint reference
 
-	Extra small devices (portrait phones, less than 576px)
-	No media query for `xs` since this is the default
+  Extra small devices (portrait phones, less than 576px)
+  No media query for `xs` since this is the default
 
-	Small devices (landscape phones, 576px and up)
-	@media (min-width: 576px) { ... }
+  Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) { ... }
 
-	Medium devices (tablets, 768px and up)
-	@media (min-width: 768px) { ... }
+  Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
 
-	Large devices (desktops, 992px and up)
-	@media (min-width: 992px) { ... }
+  Large devices (desktops, 992px and up)
+  @media (min-width: 992px) { ... }
 
-	Extra large devices (large desktops, 1200px and up)
-	@media (min-width: 1200px) { ... }
+  Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) { ... }
 
 */
 
@@ -34,9 +34,9 @@ html {
 }
 
 html, body {
-	height: 100%;
+  height: 100%;
 }
 
 body {
-	background: url(../assets/images/dark_fish_skin.png);
+  background: url(../assets/images/dark_fish_skin.png);
 }
