@@ -39,4 +39,54 @@ html, body {
 
 body {
   background: url(../assets/images/dark_fish_skin.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.compass {
+  box-sizing: content-box;
+  width: 350px;
+  height: 350px;
+  border: 10px solid white;
+  border-radius: 50%;
+  position: relative;
+  font-size: 36px;
+  font-family: Arial, serif;
+  color: white;
+}
+
+.cardinal {
+  position: absolute;
+}
+
+.north {
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.east {
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.south {
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.west {
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.arrow-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
