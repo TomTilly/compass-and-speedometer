@@ -39,16 +39,16 @@ html, body {
 
 body {
   background: url(../assets/images/dark_fish_skin.png);
+  color: white;
+  font-family: Roboto, Arial, serif;
 }
 
 .compass-container {
-  margin: 100px auto;
+  margin: 100px auto 0;
   width: 380px;
   height: 380px;
   position: relative;
   font-size: 36px;
-  font-family: Arial, serif;
-  color: white;
 }
 
 .compass {
@@ -92,4 +92,17 @@ body {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+.speed-readout-container {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.speed {
+  font-size: 5rem;
+}
+
+.speed-units {
+  font-size: 1.5em;
 }
